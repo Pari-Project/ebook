@@ -1,0 +1,170 @@
+html {
+	scroll-behavior : smooth;
+}
+	
+body {
+	font-family: Montserrat, sans-serif;
+}
+	
+	
+	
+h1, h2, h3, h4, h5, h6 {
+ font-family : roboto;
+ font-weight : bolder;
+}
+
+header {
+		background-image : url("cup.jpg");
+		background-position : center;
+		background-attachment : fixed;
+		background-repeat : no-repeat;
+		background-size : cover;
+		
+}
+
+.banner-container {
+	height : 100vh;
+	
+}
+
+
+.navbar-brand img{
+    width: 40px;
+    height: auto;
+
+}
+
+.bor{
+	
+	border : solid 1px black;	
+}
+
+.nav-link{
+    color: black;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+	
+.nav-link:hover{
+   background: #2980b9;
+   color: white;
+   transform: scale(1.1);
+}
+
+.create {
+	font-weight : bolder;
+	 color: white;
+  text-shadow: 4px 4px 8px #000000;
+	margin-bottom : 20px;
+	font-size : 70px;
+}
+
+.banner-container h1{
+    font-size: 3.5rem;
+    background-color: rgba(123, 87, 112, 0.8);
+    padding: 10px 20px;
+     font-family: Verdana;
+     border-radius: 10px;
+    
+}
+
+.text{
+	padding : 70px;
+}
+
+
+
+/* features starts */
+
+#features{
+	
+    padding: 5%;
+    background: white;
+	
+}
+
+.number{
+	
+	margin: 7px 16px;
+	padding-top :5px;
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 32px;
+    color: #121316;
+
+}
+
+.features-col{
+    border: 1px solid #0172FA;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+
+
+
+
+  #feedback{
+	  background :#626181;
+	  padding : 7% 10%;
+	  }
+	  
+	   .section-title {
+		   font-weight : bolder;
+	 color: white;
+  text-shadow:  8px #000000;
+		  font-weight : bold ;
+		   
+	   }
+	   
+	  .hr-style{
+	   border : 10px dotted white;
+	   border-bottom : none;
+	   width : 80px;
+	   margin-left : 352px;
+	   }
+	   
+	   .carousel-item{
+	   padding : 5% 15%;
+	   text-align: center;
+	   font-style: italic;
+	   color : white;
+	  }
+	  
+	  
+	  .photo {
+	    width : 120 px;
+		height : auto;
+	  }
+	  
+	  .carousel-indicators {
+	    bottom:-20px;
+	  }
+	  
+	  
+/* tutorial starts  */
+#tutorial{
+    padding: 5% 10%;
+    background: #EEEDFF;
+}
+
+.card{
+    transition: .4s;
+    border: 1px solid #0172FA;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+/* tutorial ends */
+	  
